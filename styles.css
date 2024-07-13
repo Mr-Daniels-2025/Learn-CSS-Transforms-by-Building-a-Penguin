@@ -30,7 +30,10 @@ body {
   height: 300px;
   background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
   position: absolute;
-  z-index: 1; /* set z-index to a low value to put it behind .left-mountain */
+  z-index: -1; /* adjust z-index to put it behind .left-mountain */
+  transform: rotate(45deg);
+  left: 110px;
+  top: 225px;
 }
 
 .ground {
