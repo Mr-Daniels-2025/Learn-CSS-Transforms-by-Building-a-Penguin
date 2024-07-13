@@ -51,4 +51,6 @@ body {
     width: 200px;
     height: 200px;
     background-color: yellow;
+    position: absolute; /* Set the position property to absolute */
+    border-radius: 50%; /* Set the border-radius to make the shape a circle */
 }
