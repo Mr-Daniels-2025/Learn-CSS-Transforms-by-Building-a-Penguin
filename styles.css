@@ -56,3 +56,15 @@ body {
     right: -75px;
     border-radius: 50%;
 }
+.penguin {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 75px;
+  position: relative; /* Set the position to relative */
+  z-index: 4; /* Higher stack level to ensure it appears in front */
+}
+
+.ground {
+  z-index: 0; /* Optional: Ensure ground has a lower stack level */
+}
