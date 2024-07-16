@@ -78,3 +78,14 @@ body {
   border-bottom-left-radius: 65%;
   border-bottom-right-radius: 65%;
 }
+
+.penguin-body {
+  width: 53%; /* 53% of the parent's width */
+  height: 45%; /* 45% of the parent's height */
+  background: linear-gradient(
+    45deg, 
+    rgb(134, 133, 133) 0%, 
+    rgb(234, 231, 231) 25%, 
+    white 67%
+  );
+
