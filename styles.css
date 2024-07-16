@@ -68,3 +68,10 @@ body {
 .ground {
   z-index: 0; /* Optional: Ensure ground has a lower stack level */
 }
+
+.penguin-head {
+  width: 50%; /* Half of the parent's width */
+  height: 45%; /* 45% of the parent's height */
+  background: linear-gradient(45deg, gray, rgb(239, 240, 228)); /* Linear gradient background */
+}
+
