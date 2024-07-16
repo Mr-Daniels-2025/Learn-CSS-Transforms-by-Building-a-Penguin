@@ -91,4 +91,7 @@ body {
   border-radius: 80% 80% 100% 100%; /* Rounded body shape */
 }
 
+.penguin * {
+  position: absolute;
+}
 
