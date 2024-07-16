@@ -72,12 +72,17 @@ body {
 .penguin-head {
   width: 50%;
   height: 45%;
-  background: linear-gradient(45deg, gray, rgb(239, 240, 228));
-  border-top-left-radius: 70%;
-  border-top-right-radius: 70%;
-  border-bottom-left-radius: 65%;
-  border-bottom-right-radius: 65%;
+  background: linear-gradient(
+    45deg,
+    gray,
+    rgb(239, 240, 228)
+  );
+  border-radius: 70% 70% 65% 65%;
+  position: absolute; /* Add this line */
+  top: 10%; /* Add this line */
+  left: 25%; /* Add this line */
 }
+
 
 .penguin-body {
   width: 53%; /* 53% of the parent's width */
