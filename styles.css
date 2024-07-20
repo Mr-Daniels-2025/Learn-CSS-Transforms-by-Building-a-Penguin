@@ -78,9 +78,10 @@ body {
     rgb(239, 240, 228)
   );
   border-radius: 70% 70% 65% 65%;
-  position: absolute; /* Add this line */
-  top: 10%; /* Add this line */
-  left: 25%; /* Add this line */
+  position: absolute; /* Add this line if not already present */
+  top: 10%;
+  left: 25%;
+  z-index: 1; /* Add this line to bring the element to the front */
 }
 
 
