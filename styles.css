@@ -85,16 +85,20 @@ body {
 
 
 .penguin-body {
-  width: 53%; /* 53% of the parent's width */
-  height: 45%; /* 45% of the parent's height */
+  width: 53%;
+  height: 45%;
   background: linear-gradient(
-    45deg, 
-    rgb(134, 133, 133) 0%, 
-    rgb(234, 231, 231) 25%, 
+    45deg,
+    rgb(134, 133, 133) 0%,
+    rgb(234, 231, 231) 25%,
     white 67%
-  ); /* Linear gradient background */
-  border-radius: 80% 80% 100% 100%; /* Rounded body shape */
+  );
+  border-radius: 80% 80% 100% 100%;
+  position: absolute; /* Add this line to position the element */
+  top: 40%; /* Position 40% from the top */
+  left: 23.5%; /* Position 23.5% from the left */
 }
+
 
 .penguin * {
   position: absolute;
